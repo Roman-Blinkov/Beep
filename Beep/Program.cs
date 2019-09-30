@@ -8,7 +8,8 @@ namespace Beep
         {
             Console.WriteLine("Beep with arguments. Press enter");
             Console.ReadLine();
-            Console.Beep(500, 300);
+            //Console.Beep(500, 300);
+            Console.Beep(800, 200);
             Console.WriteLine("Beep without arguments. Press enter");
             Console.ReadLine();
             Console.Beep();
